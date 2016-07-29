@@ -1,0 +1,38 @@
+.img-gallery{
+   margin: 1px;
+   margin-top: 70px;
+   height: 500px;
+   padding: 10px;
+   /*font-family: 'Lobster', cursive;*/
+   /*width: 200px;*/
+   background-color: rgba(0,0,0,0.3);
+   border: 1px solid #000;
+}
+.title{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.imgTumb{
+   /*margin: 0px;*/
+   height: 100px;
+   background-col  -webkit-filter: grayscale(100%);
+   padding:0;
+   /*border: 1px solid #000;*/
+}
+.thumb{
+  -webkit-filter: grayscale(100%);
+  padding: 5px;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+}
+.thumb:hover{
+  -webkit-filter: grayscale(10%);
+  padding: 0px;
+  /*height: 110%;*/
+  /*width: 10%;*/
+}
+/*.modal-dialog,.modal-lg{
+  margin-top: 70px;
+}*/
